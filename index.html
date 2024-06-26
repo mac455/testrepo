@@ -3,43 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mcanthony website</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- attach tailwind cdn -->
 </head>
-<body>
-   <header class="w-full h-20 bg-green-500">
-    <a href="/"> Navbar </a>
+<body class="bg-[url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=')] bg-cover bg-center ">
+    <!-- add the image to the background, making sure image is centered and covers whole background-->
+   <header class="w-full h-20 bg-black bg-opacity-70  flex items-center px-4 space-x-20">
+    <!-- Creating a navbar, 
+     - with full width, 
+     - height 20, black bg, 
+     - opaque so the image can be seen through the bg,
+     - using flexbox to align the navbar items on the x-axis 
+     - adding space between items
+      -->
+       <a class="text-white hover:text-gray-300 hover:underline" href="#About me">About me</a>
+       <a class="text-white hover:text-gray-300 hover:underline" href="#Professional Qualifications">Professional Qualifications</a>
+       <a class="text-white hover:text-gray-300 hover:underline" href="#Projects">Projects</a>
+       <a class="text-white hover:text-gray-300 hover:underline" href="#Contact">Contact</a>
+       <!-- White text for items, 
+        shows a grey text with underline when hovering above -->
    </header>
-   <form action="https//......" method="POST"
-   class="max-w-md mx-auto my-10 flex flex-col gap-5">
-   <!-- max width, margin on the x-and -y axis
-    The flex box is used to distribute space between items - in this case full name, email and message box
-    flex-col - a column based flex box with gap of 5 pixels between them
-   -->
-    <div class =" flex justify-between">
-        <!-- Adjust the space between and around the content items to leave equal space between items  in this case, the full name, email and message -->
-        <label class="text-lg text-gray-900 "for="">Full name here</label>
-        <input class="border border-gray-500 p-2 w-52" type="'text" />
-    </div>
 
-    <div class =" flex justify-between">
-        <!-- Adjust the space between and around the content items to leave equal space between items  in this case, the full name, email and message -->
-        <label class="text-lg text-gray-900 "for="">Email</label>
-        <input class="border border-gray-500 p-2 w-52" type="'text" />
-    </div>
-
-    <div class =" flex justify-between">
-        <!-- Adjust the space between and around the content items, in this case, -->
-        <label class="text-lg text-gray-900 "for="">Message</label>
-        <textarea class="border border-gray-500 p-2 w-52" rows="5" cols="20"></textarea>
-    </div>
-    <div class="text-center">
-        <button class="px-5 py-2 bg-green-600 text white">Send</button>
-
-    </div>
-  
-   </form>
+   <div class="max-w-md mx-auto my-10 flex flex-col gap-10 px-20 py-20 border-2  border-white rounded-full  ">
+    <!-- Deciding margin, 
+     - using flexbox to align the text items on the x-axis as the flex box is a col
+     -  gap of 10 pixels between the text 
+     - text is 20 pixels indented from margin 
+     - create a white circular border 
+      -->
+    <h1 class="text-white font-bold text-2xl text-centre">Hello, I'm Mcanthony</h1>
+    <h2 class="text-white font-bold text-2xl text-centre">Thank you for visiting my personal website</h2>
+    <!-- White text with a large bold font, centered-->
+   </div>
+   
 </body>
-
 </html>
