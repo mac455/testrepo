@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mcanthony website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- attach tailwind cdn -->
+</head>
+<body class="bg-[url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=')] bg-cover bg-center ">
+    <!-- add the image to the background, making sure image is centered and covers whole background-->
+   <header class="w-full h-20 bg-black bg-opacity-70  flex items-center px-4 space-x-20">
+    <!-- Creating a navbar, 
+     - with full width, 
+     - height 20, black bg, 
+     - opaque so the image can be seen through the bg,
+     - using flexbox to align the navbar items on the x-axis 
+     - adding space between items
+      -->
+       <a class="text-white hover:text-gray-300 hover:underline" href="#About me">About me</a>
+       <a class="text-white hover:text-gray-300 hover:underline" href="#Professional Qualifications">Professional Qualifications</a>
+       <a class="text-white hover:text-gray-300 hover:underline" href="#Projects">Projects</a>
+       <a class="text-white hover:text-gray-300 hover:underline" href="#Contact">Contact</a>
+       <!-- White text for items, 
+        shows a grey text with underline when hovering above -->
+   </header>
+
+   <div class="max-w-md mx-auto my-10 flex flex-col gap-10 px-20 py-20 border-2  border-white rounded-full  ">
+    <!-- Deciding margin, 
+     - using flexbox to align the text items on the x-axis as the flex box is a col
+     -  gap of 10 pixels between the text 
+     - text is 20 pixels indented from margin 
+     - create a white circular border 
+      -->
+    <h1 class="text-white font-bold text-2xl text-centre">Hello, I'm Mcanthony</h1>
+    <h2 class="text-white font-bold text-2xl text-centre">Thank you for visiting my personal website</h2>
+    <!-- White text with a large bold font, centered-->
+   </div>
+   
+</body>
+</html>
