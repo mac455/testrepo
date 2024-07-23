@@ -1,0 +1,27 @@
+.header{
+   background-color: rgb(0, 0, 0);
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+   height: 200px;
+
+}
+.header img{
+    margin: 40px;
+    padding: 20px;
+}
+.p{
+    color: white;
+}
+.newtask {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+  }
+.newtask input{
+    width: 100%;
+}
+.newtask button{
+    gap: 40px;
+}
